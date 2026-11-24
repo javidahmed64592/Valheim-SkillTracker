@@ -6,15 +6,10 @@
 
 See your skills grow: a tracker below the minimap shows each skill as you train it, with its level and progress to the next level, and the experience of every gain rises beside it.
 
-Valheim only tells you when a skill levels up, so it's hard to see what you're training or how close the next level is. SkillTracker shows it as it happens.
+Whenever you earn experience in a skill, it appears below the minimap with its icon, name, level and a bar showing progress towards the next level.
+The experience each gain gives rises and fades beside it, so you can see what pays off: a sword hit, a block, a second of sprinting.
 
-## Features
-
-- Whenever you earn experience in a skill, it appears below the minimap with its icon, name, level and a bar showing progress towards the next level.
-- The experience each gain gives rises and fades beside it, so you can see what pays off: a sword hit, a block, a second of sprinting.
-- Up to three skills show at once, and each fades out a few seconds after its last gain.
-- The level flashes gold when it goes up.
-- Works for every skill, including skills added or changed by other mods that use the vanilla skill system, such as [ActiveCombat](https://thunderstore.io/c/valheim/p/Aestelwen/ActiveCombat/).
+![Progress Bars HUD](https://github.com/javidahmed64592/Valheim-SkillTracker/raw/main/images/progress_bars_hud.png)
 
 ## Configuration
 
