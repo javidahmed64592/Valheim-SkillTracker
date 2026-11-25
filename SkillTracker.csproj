@@ -4,7 +4,7 @@
     <TargetFramework>net472</TargetFramework>
     <AssemblyName>SkillTracker</AssemblyName>
     <Description>See your skills grow: a tracker below the minimap shows each skill as you train it, with its level and progress to the next level, and the experience of every gain rises beside it.</Description>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <LangVersion>latest</LangVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
