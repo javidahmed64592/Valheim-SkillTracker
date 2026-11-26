@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- No longer logs warnings about a missing LiberationSans SDF font.
+
 ## 0.1.0
 
 First release.

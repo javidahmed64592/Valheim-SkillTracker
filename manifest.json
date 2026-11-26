@@ -1,7 +1,7 @@
 {
   "name": "SkillTracker",
   "description": "See your skills grow: a tracker below the minimap shows each skill as you train it, with its level and progress to the next level, and the experience of every gain rises beside it.",
-  "version_number": "0.1.0",
+  "version_number": "0.1.1",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2360",
     "ValheimModding-Jotunn-2.30.2"

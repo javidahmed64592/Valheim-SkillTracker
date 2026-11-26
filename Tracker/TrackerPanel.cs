@@ -236,11 +236,15 @@ internal sealed class TrackerPanel : MonoBehaviour
 
     private TextMeshProUGUI CreateText(Transform parent, string name, float size, TextAlignmentOptions alignment)
     {
+        // Created inactive so TextMeshPro's Awake runs after the font is set. Otherwise it looks for its default
+        // font (LiberationSans SDF), which Valheim doesn't ship, and logs a warning for every text.
         GameObject go = new(name, typeof(RectTransform));
+        go.SetActive(false);
         go.transform.SetParent(parent, false);
         TextMeshProUGUI text = go.AddComponent<TextMeshProUGUI>();
         text.font = _font;
         text.fontSharedMaterial = _fontMaterial;
+        go.SetActive(true);
         text.fontSize = size;
         text.alignment = alignment;
         text.textWrappingMode = TextWrappingModes.NoWrap;

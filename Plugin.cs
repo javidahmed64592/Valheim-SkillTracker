@@ -15,7 +15,7 @@ public class SkillTrackerPlugin : BaseUnityPlugin
 {
     public const string PluginGUID = "javidahmed64592.skilltracker";
     public const string PluginName = "Skill Tracker";
-    public const string PluginVersion = "0.1.0";
+    public const string PluginVersion = "0.1.1";
 
     private Harmony _harmony;
 
