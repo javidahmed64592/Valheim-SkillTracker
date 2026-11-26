@@ -19,6 +19,7 @@ Settings are in `BepInEx/config/javidahmed64592.skilltracker.cfg`: turn the trac
 
 - Only changes what you see, so it's fine for some players on a server to use it and others not.
 - Mods that put their own interface below the minimap may overlap it.
+- If a game update breaks the mod, it turns itself off and says so in the log instead of throwing errors.
 - This mod has not been tested with a gamepad, only with keyboard and mouse.
 
 ## Uninstalling
