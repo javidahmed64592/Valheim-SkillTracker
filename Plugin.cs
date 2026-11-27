@@ -23,7 +23,7 @@ public class SkillTrackerPlugin : BaseUnityPlugin
     {
         TrackerConfig.Bind(Config);
         _harmony = new Harmony(PluginGUID);
-        _harmony.PatchAll();
+        _ = SafePatcher.PatchAll(_harmony, Config, Logger);
     }
 
     private void OnDestroy()

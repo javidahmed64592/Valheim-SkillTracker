@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- If a game update breaks the mod, it turns itself off cleanly and says so in one log line, instead of throwing errors.
+- Updated Jotunn to 2.30.3.
+
 ## 0.1.1
 
 - No longer logs warnings about a missing LiberationSans SDF font.
